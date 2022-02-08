@@ -1,0 +1,342 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.img{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    width: 20%;
+    
+}
+.container{
+    position: absolute;
+    left: 1155px;
+    width: 156px;
+    height: 178px;
+    top: 110px;
+}
+.container h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48px;
+    letter-spacing: 9%;
+}
+.container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    size: 57px;
+    line-height: 31px;
+    display: flex;
+    align-items: flex-end;
+    color: #47C2C7;
+    position: absolute;
+    top: 250px;
+    
+}
+.header .email{
+    position: absolute;
+    width: 350px;
+    left: 1155px;
+    top: 455px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #00c0f3
+  
+}
+.header .password{
+    position: absolute;
+    width: 350px;
+    left: 1150px;
+    top: 505px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #00c0f3
+}
+.header .checkbox{
+    position: absolute;
+    width: 350px;
+    left: 980px;
+    top: 557px; 
+    border: 1px solid blue;
+    background: white;
+}   
+.header label{
+    position: absolute;
+    left: 1180px;
+    top: 560px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.12em;
+    color: #5F5F5F;
+}
+.header a{
+    position: absolute;
+    width: 113px;
+    height: 13px;
+    left: 1425px;
+    top: 560px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #5F5F5F;
+}
+.login a{
+    position: absolute;
+    width: 53px;
+    height: 21px;
+    left: 1159px;
+    top: 615px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center; 
+    text-decoration: none;
+    color: #faf5f5;
+    outline: none;
+    background: #00C0F3;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    } 
+
+    /* home page */
+
+.homepage{
+    position: absolute;
+    width: 140px;
+    height: 8px;
+    left: 35px;
+    top: 15px;
+    
+ }
+.details {
+    position: absolute;
+    width: 303px;
+    height: 572px;
+    left: 0px;
+    top: 220px;
+    background: #215FA9;
+    mix-blend-mode: normal;
+}
+.catch{
+    position: absolute;
+    width: 240px;
+    padding: 30px;
+    height: 10px;
+    left: 3px;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #00C0F3;
+    text-decoration: none;
+}
+.catch:hover{
+    background: rgb(103, 216, 210);
+}
+.warehouse{
+    position: absolute;
+    width: 240px;
+    padding: 30px;
+    height: 10px;
+    left: 3px;
+    top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #00C0F3;
+    text-decoration: none;
+}
+.warehouse:hover{
+    background: rgb(103, 216, 210);
+} 
+.storage_1{
+    position: absolute;
+    width: 240px;
+    padding: 30px;
+    height: 10px;
+    left: 2px;
+    top: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #00C0F3;
+    text-decoration: none;
+}
+.storage_1:hover{
+    background: rgb(103, 216, 210);
+}
+.daily-details
+{
+    position: absolute;
+    width: 240px;
+    padding: 30px;
+    height: 10px;
+    left: 2px;
+    top: 180px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #00C0F3;
+    text-decoration: none;
+}
+.daily-details:hover{
+    background: rgb(103, 216, 210); 
+}
+.btn a{
+   position: relative;
+   left: 91%;
+   top: 15px;
+   padding: 10px;
+}
+/* password popup */
+
+.popup{
+    display: none;
+    position: absolute;
+    width: 542px;
+    height: 343px;
+    left: 30%;
+    top: 25%;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+.popup .content{
+    position: absolute;
+    top: 50%;
+    left: 42.50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    width: 542px;
+    height: 343px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.popup h1{
+    position: absolute;
+    width: 583px;
+    height: 100px;
+    left: -1px;
+    top: -18px;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: #47C2C7;
+    background-size: 20px;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+
+}
+.content h4{
+    position: absolute;
+    width: 335px;
+    height: 39px;
+    left: 103px;
+    top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #918E8E;
+}
+.content p{
+    position: absolute;
+    width: 335px;
+    height: 39px;
+    left: 103px;
+    top: 129px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #918E8E;
+}
+.content input{
+    position: absolute;
+    width: 431px;
+    height: 47px;
+    left: 55px;
+    top: 180px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+}
+ .close-btn{
+    position: absolute;
+    right:-55px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: #757575;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.content button{
+    position: absolute;
+    left: 220px;
+    top: 280px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #00C0F3;
+    border: 1px solid #00C0F3;
+    box-sizing: border-box;
+    border-radius: 35px;
+    background: white;
+    width: 150px;
+    text-align: center;
+
+}
